@@ -1,8 +1,6 @@
-import inspect
 import copy
-from django.template.base import kwarg_re
 
-s = frozenset([1,2,3])
+s = frozenset([1, 2, 3])
 
 a = 5
 print(id(a))
